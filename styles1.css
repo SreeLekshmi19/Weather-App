@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+    transition: background 0.3s, color 0.3s; /* Smooth transition for dark mode */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s; /* Smooth transition for dark mode */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-toggler {
+    border: 2px solid #ffc107;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+#darkModeToggle {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
+
+/* List Styles */
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #dee2e6; /* Light border */
+}
+
+.list-group-item strong{
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Light footer background */
+    color: #000000; /* Dark text */
+    font-size: 0.9rem;
+    padding: 15px;
+    transition: background 0.3s, color 0.3s; /* Smooth transition for dark mode */
+}
+
+footer small {
+    opacity: 0.8;
+}
+
+footer a {
+    color: #5507ff;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #343a40;
+    color: #f8f9fa;
+}
+
+body.dark-mode .navbar {
+    background: linear-gradient(90deg, #343a40, #212529);
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+body.dark-mode .navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .list-group-item {
+    background: linear-gradient(135deg, #35528d, #4e598a); /* Dark background for list items */
+    border: 1px solid #333d86;
+    color: #ffffff;
+
+}
+
+body.dark-mode .list-group-item strong{
+    color: #08034e;
+}
+
+body.dark-mode footer{
+    background: linear-gradient(90deg, #343a40, #212529); /* Dark footer background */
+    color: #ffffff; /* Light text */
+}
+
+footer.dark-mode a {
+    color: #ffffff;
+    
+}
+
+
+/* Transitions for Dark Mode */
