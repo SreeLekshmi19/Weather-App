@@ -20,7 +20,7 @@ A simple and elegant weather application that provides real-time weather updates
 
 ## 📸 Screenshots
 
-> _Add screenshots here if available_
+   assets/Screen Recording 2025-04-11 233759.mp4
 
 ## 🔧 Setup & Installation
 
