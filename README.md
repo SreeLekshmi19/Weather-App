@@ -36,7 +36,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 1. **Fork the repository**
 2. **Clone the repository :**
    ```bash
-   git clone https://github.com/your-username/E-Commerce-Product-Listing-App.git
+   git clone https://github.com/your-username/Weather-App.git
 3. **Make your changes**
 4. **Commit and Push your changes :**
    ```bash
